@@ -1,22 +1,18 @@
 import React from "react";
-import Nav from "./Nav";
+import Layout from "../Layout";
+import Nav from "../Nav";
 import PartidosHoy from "./PartidosHoy";
 import UltimasNoticias from "./UltimasNoticias";
 
-const Home = () =>{
-    return (
-        <>
-        <Nav/>
-        <main>
-        <div className="container mt-5">
-          <div className="row">
-                        <PartidosHoy/>
-                        <UltimasNoticias/>
-          </div>
-        </div>
-      </main>
-        </>
-    );
-}
+const Home = () => {
+  return (
+    <>
+      <Layout>
+        <PartidosHoy />
+        <UltimasNoticias />
+      </Layout>
+    </>
+  );
+};
 
 export default Home;
