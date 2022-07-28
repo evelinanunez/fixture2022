@@ -1,52 +1,34 @@
 import React from "react";
 import Layout from "../Layout";
 
-const Grupo = () => {
-  //Declaro y inicializo un array con los nombres de los grupos
-  const LetraGrupo = ["A", "B", "C", "D", "E", "F", "G", "H"];
+const Grupo = ({ paises, grupo, imagen }) => {
   return (
     <>
-      <section className="col-12 col-lg-3">
-        {LetraGrupo.map((Letra) => {
-          return <h4>`Grupo ${Letra}`</h4>;
-        })}
-
-        <table className="table table-hover">
-          <tbody>
-            <tr>
-              {/*No se que es */}
-              <td>Qatar</td>
-              <td>
-                <img src="">FotoBandera</img>
-              </td>{" "}
-              {/*Contenido de en filas de la tabla */}
-            </tr>
-            <tr>
-              {/*No se que es */}
-              <td>Ecuador</td>
-              <td>
-                <img src="">FotoBandera</img>
-              </td>{" "}
-              {/*Contenido de en filas de la tabla */}
-            </tr>
-            <tr>
-              {/*No se que es */}
-              <td>Senegal</td>
-              <td>
-                <img src="">FotoBandera</img>
-              </td>{" "}
-              {/*Contenido de en filas de la tabla */}
-            </tr>
-            <tr>
-              {/*No se que es */}
-              <td>Países Bajos</td>
-              <td>
-                <img src="">FotoBandera</img>
-              </td>{" "}
-              {/*Contenido de en filas de la tabla */}
-            </tr>
-          </tbody>
-        </table>
+      {/**
+       * tr: row
+       * td:data
+       * th:head
+       */}
+      <section>
+        <h3>{"Grupo " + grupo}</h3>
+        <div className="col-lg-3">
+          <table className="table table-hover border">
+            <tbody>
+              {paises.map((pais) => {
+                return (
+                  <tr>
+                    {/*No se que es */}
+                    <td>{pais}</td>
+                    <td className="text-end">
+                      <img src="" alt={imagen}></img>
+                    </td>{" "}
+                    {/*Contenido de en filas de la tabla */}
+                  </tr>
+                );
+              })}
+            </tbody>
+          </table>
+        </div>
       </section>
     </>
   );
