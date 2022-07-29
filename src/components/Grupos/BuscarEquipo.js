@@ -4,7 +4,7 @@ const BuscarEquipo = () => {
   return (
     <>
       <h3>Grupos</h3>
-      <div className="d-flex">
+      <div className="d-flex mb-3">
         <input
           className="form-control"
           list="datalistOptions"
