@@ -6,7 +6,7 @@ const Grupos = () => {
   return (
     <>
       <BuscarEquipo />
-      <div className="d-flex justify-content-lg-between">
+      <div className="row">
         <Grupo
           paises={["Qatar", "Ecuador", "Senegal", "Países Bajos"]}
           grupo="A"
@@ -28,7 +28,7 @@ const Grupos = () => {
           imagen="Bandera"
         />
       </div>
-      <div className="d-flex justify-content-lg-between">
+      <div className="row">
         <Grupo
           paises={["España", "Ecuador", "Alemania", "Japón"]}
           grupo="E"

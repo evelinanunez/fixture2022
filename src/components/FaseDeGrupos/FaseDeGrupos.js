@@ -8,12 +8,8 @@ const FaseDeGrupos = () => {
       <h3>Fase de Grupos</h3>
       <section className="d-inline my-3 ">
         <div className="row">
-          <div className="col-3 justify-content-start ">
-            <Filtros tituloSelector={"Seleccionar Equipo"} />
-          </div>
-          <div className="col-3 justify-content-start ">
-            <Filtros tituloSelector={"Ordenar Por"} />
-          </div>
+          <Filtros tituloSelector={"Seleccionar Equipo"} />
+          <Filtros tituloSelector={"Ordenar Por"} />
         </div>
       </section>
       <section>
