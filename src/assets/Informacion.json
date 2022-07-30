@@ -1,0 +1,619 @@
+{
+	"partidos": [
+		{
+			"id": 1,
+			"grupo": "A",
+			"equipo1": "Senegal",
+			"equipo2": "Países Bajos",
+			"fecha": "2022-11-21T07:00:00.00",
+			"resultado1": null,
+			"resultado2": null
+		},
+		{
+			"id": 2,
+			"grupo": "A",
+			"equipo1": "Qatar",
+			"equipo2": "Ecuador",
+			"fecha": "2022-11-21T13:00:00.00",
+			"resultado1": null,
+			"resultado2": null
+		},
+		{
+			"id": 3,
+			"grupo": "A",
+			"equipo1": "Qatar",
+			"equipo2": "Senegal",
+			"fecha": "2022-11-25T10:00:00.00",
+			"resultado1": null,
+			"resultado2": null
+		},
+		{
+			"id": 4,
+			"grupo": "A",
+			"equipo1": "Ecuador",
+			"equipo2": "Países Bajos",
+			"fecha": "2022-11-25T13:00:00.00",
+			"resultado1": null,
+			"resultado2": null
+		},
+		{
+			"id": 5,
+			"grupo": "A",
+			"equipo1": "Qatar",
+			"equipo2": "Países Bajos",
+			"fecha": "2022-11-29T12:00:00.00",
+			"resultado1": null,
+			"resultado2": null
+		},
+		{
+			"id": 6,
+			"grupo": "A",
+			"equipo1": "Ecuador",
+			"equipo2": "Senegal",
+			"fecha": "2022-11-29T12:00:00.00",
+			"resultado1": null,
+			"resultado2": null
+		},
+		{
+			"id": 7,
+			"grupo": "B",
+			"equipo1": "Inglaterra",
+			"equipo2": "Irán",
+			"fecha": "2022-11-21T10:00:00.00",
+			"resultado1": null,
+			"resultado2": null
+		},
+		{
+			"id": 8,
+			"grupo": "B",
+			"equipo1": "EE. UU.",
+			"equipo2": "Gales",
+			"fecha": "2022-11-21T16:00:00.00",
+			"resultado1": null,
+			"resultado2": null
+		},
+		{
+			"id": 9,
+			"grupo": "B",
+			"equipo1": "Irán",
+			"equipo2": "Gales",
+			"fecha": "2022-11-25T07:00:00.00",
+			"resultado1": null,
+			"resultado2": null
+		},
+		{
+			"id": 10,
+			"grupo": "B",
+			"equipo1": "Inglaterra",
+			"equipo2": "EE. UU.",
+			"fecha": "2022-11-25T16:00:00.00",
+			"resultado1": null,
+			"resultado2": null
+		},
+		{
+			"id": 11,
+			"grupo": "B",
+			"equipo1": "Gales",
+			"equipo2": "Inglaterra",
+			"fecha": "2022-11-29T16:00:00.00",
+			"resultado1": null,
+			"resultado2": null
+		},
+		{
+			"id": 12,
+			"grupo": "B",
+			"equipo1": "Irán",
+			"equipo2": "EE. UU.",
+			"fecha": "2022-11-29T16:00:00.00",
+			"resultado1": null,
+			"resultado2": null
+		},
+		{
+			"id": 13,
+			"grupo": "C",
+			"equipo1": "Argentina",
+			"equipo2": "Arabia Saudita",
+			"fecha": "2022-11-22T07:00:00.00",
+			"resultado1": null,
+			"resultado2": null
+		},
+		{
+			"id": 14,
+			"grupo": "C",
+			"equipo1": "México",
+			"equipo2": "Polonia",
+			"fecha": "2022-11-22T13:00:00.00",
+			"resultado1": null,
+			"resultado2": null
+		},
+		{
+			"id": 15,
+			"grupo": "C",
+			"equipo1": "Arabia Saudita",
+			"equipo2": "Polonia",
+			"fecha": "2022-11-26T11:00:00.00",
+			"resultado1": null,
+			"resultado2": null
+		},
+		{
+			"id": 16,
+			"grupo": "C",
+			"equipo1": "Argentina",
+			"equipo2": "México",
+			"fecha": "2022-11-26T16:00:00.00",
+			"resultado1": null,
+			"resultado2": null
+		},
+		{
+			"id": 17,
+			"grupo": "C",
+			"equipo1": "Argentina",
+			"equipo2": "Polonia",
+			"fecha": "2022-11-30T16:00:00.00",
+			"resultado1": null,
+			"resultado2": null
+		},
+		{
+			"id": 18,
+			"grupo": "C",
+			"equipo1": "Arabia Saudita",
+			"equipo2": "México",
+			"fecha": "2022-11-30T16:00:00.00",
+			"resultado1": null,
+			"resultado2": null
+		},
+		{
+			"id": 19,
+			"grupo": "D",
+			"equipo1": "Dinamarca",
+			"equipo2": "Túnez",
+			"fecha": "2022-11-22T10:00:00.00",
+			"resultado1": null,
+			"resultado2": null
+		},
+		{
+			"id": 20,
+			"grupo": "D",
+			"equipo1": "Francia",
+			"equipo2": "Australia",
+			"fecha": "2022-11-22T16:00:00.00",
+			"resultado1": null,
+			"resultado2": null
+		},
+		{
+			"id": 21,
+			"grupo": "D",
+			"equipo1": "Australia",
+			"equipo2": "Túnez",
+			"fecha": "2022-11-26T07:00:00.00",
+			"resultado1": null,
+			"resultado2": null
+		},
+		{
+			"id": 22,
+			"grupo": "D",
+			"equipo1": "Francia",
+			"equipo2": "Dinamarca",
+			"fecha": "2022-11-26T13:00:00.00",
+			"resultado1": null,
+			"resultado2": null
+		},
+		{
+			"id": 23,
+			"grupo": "D",
+			"equipo1": "Australia",
+			"equipo2": "Dinamarca",
+			"fecha": "2022-11-30T12:00:00.00",
+			"resultado1": null,
+			"resultado2": null
+		},
+		{
+			"id": 24,
+			"grupo": "D",
+			"equipo1": "Francia",
+			"equipo2": "Túnez",
+			"fecha": "2022-11-30T12:00:00.00",
+			"resultado1": null,
+			"resultado2": null
+		},
+		{
+			"id": 25,
+			"grupo": "E",
+			"equipo1": "Alemania",
+			"equipo2": "Japón",
+			"fecha": "2022-11-23T10:00:00.00",
+			"resultado1": null,
+			"resultado2": null
+		},
+		{
+			"id": 26,
+			"grupo": "E",
+			"equipo1": "España",
+			"equipo2": "Costa Rica",
+			"fecha": "2022-11-23T13:00:00.00",
+			"resultado1": null,
+			"resultado2": null
+		},
+		{
+			"id": 27,
+			"grupo": "E",
+			"equipo1": "Costa Rica",
+			"equipo2": "Japón",
+			"fecha": "2022-11-27T07:00:00.00",
+			"resultado1": null,
+			"resultado2": null
+		},
+		{
+			"id": 28,
+			"grupo": "E",
+			"equipo1": "España",
+			"equipo2": "Alemania",
+			"fecha": "2022-11-27T16:00:00.00",
+			"resultado1": null,
+			"resultado2": null
+		},
+		{
+			"id": 29,
+			"grupo": "E",
+			"equipo1": "España",
+			"equipo2": "Japón",
+			"fecha": "2022-12-01T16:00:00.00",
+			"resultado1": null,
+			"resultado2": null
+		},
+		{
+			"id": 30,
+			"grupo": "E",
+			"equipo1": "Costa Rica",
+			"equipo2": "Alemania",
+			"fecha": "2022-12-01T16:00:00.00",
+			"resultado1": null,
+			"resultado2": null
+		},
+		{
+			"id": 31,
+			"grupo": "F",
+			"equipo1": "Marruecos",
+			"equipo2": "Croacia",
+			"fecha": "2022-11-23T07:00:00.00",
+			"resultado1": null,
+			"resultado2": null
+		},
+		{
+			"id": 32,
+			"grupo": "F",
+			"equipo1": "Bélgica",
+			"equipo2": "Canadá",
+			"fecha": "2022-11-23T16:00:00.00",
+			"resultado1": null,
+			"resultado2": null
+		},
+		{
+			"id": 33,
+			"grupo": "F",
+			"equipo1": "Bélgica",
+			"equipo2": "Marruecos",
+			"fecha": "2022-11-27T10:00:00.00",
+			"resultado1": null,
+			"resultado2": null
+		},
+		{
+			"id": 34,
+			"grupo": "F",
+			"equipo1": "Canadá",
+			"equipo2": "Croacia",
+			"fecha": "2022-11-27T13:00:00.00",
+			"resultado1": null,
+			"resultado2": null
+		},
+		{
+			"id": 35,
+			"grupo": "F",
+			"equipo1": "Bélgica",
+			"equipo2": "Croacia",
+			"fecha": "2022-12-01T12:00:00.00",
+			"resultado1": null,
+			"resultado2": null
+		},
+		{
+			"id": 36,
+			"grupo": "F",
+			"equipo1": "Canadá",
+			"equipo2": "Marruecos",
+			"fecha": "2022-12-01T12:00:00.00",
+			"resultado1": null,
+			"resultado2": null
+		},
+		{
+			"id": 37,
+			"grupo": "G",
+			"equipo1": "Suiza",
+			"equipo2": "Camerún",
+			"fecha": "2022-11-24T07:00:00.00",
+			"resultado1": null,
+			"resultado2": null
+		},
+		{
+			"id": 38,
+			"grupo": "G",
+			"equipo1": "Brasil",
+			"equipo2": "Serbia",
+			"fecha": "2022-11-24T16:00:00.00",
+			"resultado1": null,
+			"resultado2": null
+		},
+		{
+			"id": 39,
+			"grupo": "G",
+			"equipo1": "Serbia",
+			"equipo2": "Camerún",
+			"fecha": "2022-11-28T07:00:00.00",
+			"resultado1": null,
+			"resultado2": null
+		},
+		{
+			"id": 40,
+			"grupo": "G",
+			"equipo1": "Brasil",
+			"equipo2": "Suiza",
+			"fecha": "2022-11-28T13:00:00.00",
+			"resultado1": null,
+			"resultado2": null
+		},
+		{
+			"id": 41,
+			"grupo": "G",
+			"equipo1": "Brasil",
+			"equipo2": "Camerún",
+			"fecha": "2022-12-02T16:00:00.00",
+			"resultado1": null,
+			"resultado2": null
+		},
+		{
+			"id": 42,
+			"grupo": "G",
+			"equipo1": "Serbia",
+			"equipo2": "Suiza",
+			"fecha": "2022-12-02T16:00:00.00",
+			"resultado1": null,
+			"resultado2": null
+		},
+		{
+			"id": 43,
+			"grupo": "H",
+			"equipo1": "Uruguay",
+			"equipo2": "Corea del Sur",
+			"fecha": "2022-11-24T10:00:00.00",
+			"resultado1": null,
+			"resultado2": null
+		},
+		{
+			"id": 44,
+			"grupo": "H",
+			"equipo1": "Portugal",
+			"equipo2": "Ghana",
+			"fecha": "2022-11-24T13:00:00.00",
+			"resultado1": null,
+			"resultado2": null
+		},
+		{
+			"id": 45,
+			"grupo": "H",
+			"equipo1": "Ghana",
+			"equipo2": "Corea del Sur",
+			"fecha": "2022-11-28T10:00:00.00",
+			"resultado1": null,
+			"resultado2": null
+		},
+		{
+			"id": 46,
+			"grupo": "H",
+			"equipo1": "Portugal",
+			"equipo2": "Uruguay",
+			"fecha": "2022-11-28T16:00:00.00",
+			"resultado1": null,
+			"resultado2": null
+		},
+		{
+			"id": 47,
+			"grupo": "H",
+			"equipo1": "Portugal",
+			"equipo2": "Corea del Sur",
+			"fecha": "2022-12-02T12:00:00.00",
+			"resultado1": null,
+			"resultado2": null
+		},
+		{
+			"id": 48,
+			"grupo": "H",
+			"equipo1": "Ghana",
+			"equipo2": "Uruguay",
+			"fecha": "2022-12-02T12:00:00.00",
+			"resultado1": null,
+			"resultado2": null
+		}
+	],
+	"grupos": [
+		{
+			"id": 1,
+			"titulo": "Grupo A",
+			"equipos": [
+				{
+					"nombre": "Qatar",
+					"codigo": "qa"
+				},
+				{
+					"nombre": "Ecuador",
+					"codigo": "ec"
+				},
+				{
+					"nombre": "Senegal",
+					"codigo": "sn"
+				},
+				{
+					"nombre": "Países Bajos",
+					"codigo": "nl"
+				}
+			]
+		},
+		{
+			"id": 2,
+			"titulo": "Grupo B",
+			"equipos": [
+				{
+					"nombre": "Inglaterra",
+					"codigo": "gb-eng"
+				},
+				{
+					"nombre": "Irán",
+					"codigo": "ir"
+				},
+				{
+					"nombre": "EE. UU.",
+					"codigo": "us"
+				},
+				{
+					"nombre": "Gales",
+					"codigo": "gb-wls"
+				}
+			]
+		},
+		{
+			"id": 3,
+			"titulo": "Grupo C",
+			"equipos": [
+				{
+					"nombre": "Argentina",
+					"codigo": "ar"
+				},
+				{
+					"nombre": "Arabia Saudita",
+					"codigo": "sa"
+				},
+				{
+					"nombre": "México",
+					"codigo": "mx"
+				},
+				{
+					"nombre": "Polonia",
+					"codigo": "pl"
+				}
+			]
+		},
+		{
+			"id": 4,
+			"titulo": "Grupo D",
+			"equipos": [
+				{
+					"nombre": "Francia",
+					"codigo": "fr"
+				},
+				{
+					"nombre": "Australia",
+					"codigo": "au"
+				},
+				{
+					"nombre": "Dinamarca",
+					"codigo": "dk"
+				},
+				{
+					"nombre": "Túnez",
+					"codigo": "tn"
+				}
+			]
+		},
+		{
+			"id": 5,
+			"titulo": "Grupo E",
+			"equipos": [
+				{
+					"nombre": "España",
+					"codigo": "es"
+				},
+				{
+					"nombre": "Costa Rica",
+					"codigo": "cr"
+				},
+				{
+					"nombre": "Alemania",
+					"codigo": "de"
+				},
+				{
+					"nombre": "Japón",
+					"codigo": "jp"
+				}
+			]
+		},
+		{
+			"id": 6,
+			"titulo": "Grupo F",
+			"equipos": [
+				{
+					"nombre": "Bélgica",
+					"codigo": "be"
+				},
+				{
+					"nombre": "Canadá",
+					"codigo": "ca"
+				},
+				{
+					"nombre": "Marruecos",
+					"codigo": "ma"
+				},
+				{
+					"nombre": "Croacia",
+					"codigo": "hr"
+				}
+			]
+		},
+		{
+			"id": 7,
+			"titulo": "Grupo G",
+			"equipos": [
+				{
+					"nombre": "Brasil",
+					"codigo": "br"
+				},
+				{
+					"nombre": "Serbia",
+					"codigo": "rs"
+				},
+				{
+					"nombre": "Suiza",
+					"codigo": "ch"
+				},
+				{
+					"nombre": "Camerún",
+					"codigo": "cm"
+				}
+			]
+		},
+		{
+			"id": 8,
+			"titulo": "Grupo H",
+			"equipos": [
+				{
+					"nombre": "Portugal",
+					"codigo": "pt"
+				},
+				{
+					"nombre": "Ghana",
+					"codigo": "gh"
+				},
+				{
+					"nombre": "Uruguay",
+					"codigo": "uy"
+				},
+				{
+					"nombre": "Corea del Sur",
+					"codigo": "kr"
+				}
+			]
+		}
+	],
+	"partidos-hoy": [],
+	"octavos": [],
+	"cuartos": [],
+	"semifinal": [],
+	"final": []
+}
