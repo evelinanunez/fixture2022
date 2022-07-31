@@ -1,7 +1,7 @@
 import React from "react";
 import Layout from "../Layout";
 
-const Grupo = ({ paises, grupo, imagen }) => {
+const Grupo = ({ imagen }) => {
   return (
     <>
       {/**
@@ -10,21 +10,15 @@ const Grupo = ({ paises, grupo, imagen }) => {
        * th:head
        */}
       <section className="col-12 col-md-6 col-lg-3">
-        <h3>{"Grupo " + grupo}</h3>
+        <h3>Grupo ...</h3>
         <table className="table table-hover border">
           <tbody>
-            {paises.map((pais) => {
-              return (
-                <tr>
-                  {/*No se que es */}
-                  <td>{pais}</td>
-                  <td className="text-end">
-                    <img src="" alt={imagen}></img>
-                  </td>{" "}
-                  {/*Contenido de en filas de la tabla */}
-                </tr>
-              );
-            })}
+            <tr>
+              <td>Pais...</td>
+              <td className="text-end">
+                <img src="" alt={imagen}></img>
+              </td>
+            </tr>
           </tbody>
         </table>
       </section>

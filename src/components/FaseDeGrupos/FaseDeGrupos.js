@@ -13,16 +13,7 @@ const FaseDeGrupos = () => {
         </div>
       </section>
       <section>
-        <Partidos
-          cabeceraPartidos={[
-            "Grupo",
-            "Fecha",
-            "Equipo 1",
-            "Equipo 2",
-            "Resultado",
-            "Acciones",
-          ]}
-        />
+        <Partidos />
       </section>
     </>
   );
