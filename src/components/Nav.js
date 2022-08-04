@@ -30,9 +30,9 @@ const Nav = () => {
         </button>
         <div className="collapse navbar-collapse " id="navbarSupportedContent">
           <ul className="navbar-nav  me-auto mb-2 mb-lg-0">
-            {seccionesNavbar.map((seccion) => {
+            {seccionesNavbar.map((seccion, index) => {
               return (
-                <li className="nav-item">
+                <li key={index} className="nav-item">
                   <a className="nav-link" href="#">
                     {seccion}
                   </a>

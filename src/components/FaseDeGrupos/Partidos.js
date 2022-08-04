@@ -1,8 +1,9 @@
 import React from "react";
 import informacion from "../../assets/Informacion.json";
-import FaseDeGrupos from "./FaseDeGrupos";
 
 const Partidos = () => {
+  const { partidos } = informacion;
+
   return (
     <>
       {/**
@@ -12,21 +13,39 @@ const Partidos = () => {
        */}
       <table className="table table-hover">
         <thead>
-          <th>Grupo</th>
-          <th>Fecha</th>
-          <th>Equipo 1</th>
-          <th>Equipo 2</th>
-          <th>Resultados</th>
-          <th>Acciones</th>
+          <tr>
+            <th>Grupo</th>
+            <th>Fecha</th>
+            <th>Equipo 1</th>
+            <th>Equipo 2</th>
+            <th>Resultados</th>
+            <th>Acciones</th>
+          </tr>
         </thead>
         <tbody>
-          <tr>
-            <td>21 de noviembre - 07: 00</td>
-            <td>Senegal</td>
-            <td>Paises Bajos</td>
-            <td>Resultado</td>
-            <td>Acciones</td>
-          </tr>
+          {partidos.map((valor) => {
+            const { fecha } = valor;
+            const fecha1 = new Date(fecha);
+            const fechaLocal = fecha1.toLocaleDateString("es-AR", {
+              month: "long",
+              day: "numeric",
+            });
+            const horaLocal = fecha1.toLocaleTimeString("es-AR", {
+              hour: "2-digit",
+              minute: "2-digit",
+            });
+
+            return (
+              <tr key={valor.id}>
+                <td>{valor["grupo"]}</td>
+                <td>{fechaLocal + " - " + horaLocal}</td>
+                <td>{valor["equipo1"]}</td>
+                <td>{valor.equipo2}</td>
+                <td>{valor["resultado1"]}</td>
+                <td>{valor["resultado2"]}</td>
+              </tr>
+            );
+          })}
         </tbody>
       </table>
     </>
