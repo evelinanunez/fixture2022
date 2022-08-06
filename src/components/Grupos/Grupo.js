@@ -22,7 +22,7 @@ const Grupo = (props) => {
                     alt="Bandera"
                     width="80"
                     height="50"
-                  ></img>
+                  />
                 </td>
               </tr>
             );

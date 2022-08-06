@@ -1,6 +1,7 @@
 import React from "react";
 import Filtros from "./Filtros";
-import Partidos from "./Partidos";
+import Partido from "./Partido";
+import TablePartidos from "./TablePartidos";
 
 const FaseDeGrupos = () => {
   return (
@@ -13,7 +14,7 @@ const FaseDeGrupos = () => {
         </div>
       </section>
       <section>
-        <Partidos />
+        <TablePartidos />
       </section>
     </>
   );

@@ -5,22 +5,20 @@ import Grupo from "./Grupo";
 const ContenedorGrupos = () => {
   const { grupos } = informacion;
   return (
-    <>
-      <div className="row">
-        {grupos.map((grupo) => {
-          const { equipos } = grupo;
-          return (
-            <>
-              <Grupo
-                key={grupo.id}
-                tituloGrupo={grupo.titulo}
-                equipos={equipos}
-              />
-            </>
-          );
-        })}
-      </div>
-    </>
+    <div className="row">
+      {grupos.map((grupo) => {
+        const { equipos } = grupo;
+        return (
+          <>
+            <Grupo
+              key={grupo.id}
+              tituloGrupo={grupo.titulo}
+              equipos={equipos}
+            />
+          </>
+        );
+      })}
+    </div>
   );
 };
 
