@@ -1,22 +1,42 @@
 import React from "react";
+import { Link, NavLink } from "react-router-dom";
 
 const Nav = () => {
   //Guardo los datos en un array , porque le pongo const y no let???
   const seccionesNavbar = [
-    "Grupos",
-    "Fase de Grupos",
-    "Octavos",
-    "Cuartos",
-    "Semi Final",
-    "Final",
+    {
+      nombre: "Grupos",
+      path: "/grupos",
+    },
+    {
+      nombre: "Fase de Grupos",
+      path: "/fase-de-grupos",
+    },
+    {
+      nombre: "Octavos",
+      path: "/octavos",
+    },
+    {
+      nombre: "Cuartos",
+      path: "/cuartos",
+    },
+    {
+      nombre: "Semi Final",
+      path: "/semifinal",
+    },
+    {
+      nombre: "Final",
+      path: "/final",
+    },
   ];
 
   return (
     <nav className="navbar navbar-expand-lg  navbar-dark  bg-dark">
       <div className="container-fluid">
-        <a className="navbar-brand" href="#">
+        <Link to="/" className="navbar-brand">
           Fixture
-        </a>
+        </Link>
+
         <button
           className="navbar-toggler"
           type="button"
@@ -33,9 +53,13 @@ const Nav = () => {
             {seccionesNavbar.map((seccion, index) => {
               return (
                 <li key={index} className="nav-item">
-                  <a className="nav-link" href="#">
-                    {seccion}
-                  </a>
+                  <NavLink
+                    to={seccion.path}
+                    className="nav-link"
+                    active="active"
+                  >
+                    {seccion.nombre}
+                  </NavLink>
                 </li>
               );
             })}

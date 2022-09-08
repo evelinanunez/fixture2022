@@ -12,8 +12,8 @@ import Layout from "./components/Layout";
 
 const App = ({ children }) => {
   return (
-    <Layout>
-      <BrowserRouter>
+    <BrowserRouter>
+      <Layout>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/grupos" element={<Grupos />} />
@@ -23,8 +23,8 @@ const App = ({ children }) => {
           <Route path="/semifinal" element={<SemiFinal />} />
           <Route path="/final" element={<Final />} />
         </Routes>
-      </BrowserRouter>
-    </Layout>
+      </Layout>
+    </BrowserRouter>
   );
 };
 
